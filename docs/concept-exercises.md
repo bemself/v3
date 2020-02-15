@@ -17,7 +17,7 @@ By "Fluency", we mean: Do you **get** that language? Can you reason in that lang
 
 "Fluency" is different to "Proficiency", where we use proficiency to mean: Can you write programs in the language (e.g. can you nav stdlib, docs, compose complex code structures).
 
-Exercism focuses on teaching Fluency not Proficiency. We aim to teach people to understand what a makes a language unique and how experienced programmers in that language would reason about - and solve - problems.
+Exercism focuses on teaching Fluency not Proficiency. We aim to teach people to understand what makes a language unique and how experienced programmers in that language would reason about - and solve - problems.
 
 ## How are Concept Exercises designed and structured?
 
@@ -33,10 +33,17 @@ Concept Exercises should not inherently become more difficult as the track progr
 
 Concept Exercises are **not** mentored. When a user submits a submission that gets the tests passing for a Concept Exercise, we check for an Analyzer or Representer to give feedback. If none is found, then the solution is approved. This shifts the burden of teaching to the exercise, which must provide a clear pathway to learning the concept that is being taught.
 
-
 Concept Exercises do not share a common base like Practice Exercises do in the `problem-specifications` repository. Instead they "share" Concepts that they are teaching with other languages. This repository aims to list all of those Concepts and provide information about the Concept that maintainers can use as the basis for their own languages. Each Concept should also link to the implementations in different languages. Maintainers are free to copy and paste from each others repositories, and then edit to make things specific to their tracks, but such copy-and-pastes should be considered hard-forks.
 
 For example, we might define a concept of "Classes" and provide a short introduction that explains what a class is, how it fits with objects, state, etc. We might include a link to a good article introducing OOP and classes. Individual tracks implementing an exercise on Classes can then include this introductory text, making any changes or additions that explain their language-specific semantics and syntax.
+
+## Design Guidelines
+
+When designing Concept Exercises, please consider the following guidelines:
+
+1. The exercise should be able to be solved in 5-10 minutes by someone proficient in the language.
+1. The exercise should not involve having to learn or engineer a non-trivial algorithm.
+1. The exercise should be background-knowledge-agnostic, unless the exercise calls for it (e.g. no maths unless it's a scientific/maths-based Concept).
 
 ## Exercise Structure
 
@@ -68,6 +75,14 @@ Once the user completes the exercise they will be shown this file, which gives t
 
 See the C# floating-point-numbers exercise's [after.md file][csharp-docs-after.md] for an example.
 
+### `.meta/design.md`
+
+This file contains information on the exercise's design, which includes things like its goal, its teaching goals, what not to teach, and more. This information can be extracted from the exercise's corresponding GitHub issue.
+
+It exists in order to inform future maintainers or contributors about the scope and limitations of an exercise, to avoid the natural trend towards making exercises more complex over time.
+
+See the C# floating-point-numbers exercise's [design.md file][csharp-docs-design.md] for an example.
+
 ## Track Structure
 
 ### `exercises/shared/.docs/cli.md`
@@ -88,4 +103,3 @@ See the C# track's [debug.md file][csharp-docs-debug.md] for an example.
 [csharp-docs-hints.md]: ../languages/csharp/exercises/concept/numbers-floating-point/.docs/hints.md
 [csharp-docs-introduction.md]: ../languages/csharp/exercises/concept/numbers-floating-point/.docs/introduction.md
 [csharp-docs-instructions.md]: ../languages/csharp/exercises/concept/numbers-floating-point/.docs/instructions.md
-[csharp-meta-config.json]: ../languages/csharp/exercises/concept/numbers-floating-point/.meta/config.json
