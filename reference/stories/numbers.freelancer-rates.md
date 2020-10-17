@@ -36,8 +36,9 @@ These are recommendations, not rules, for recurring terminology in the instructi
 
 ## Implementations
 
-- [Elixir][implementation-elixir]
-- [JavaScript][implementation-javascript] (reference implementation)
+- [Elixir: numbers][implementation-elixir]
+- [JavaScript: numbers][implementation-javascript] (reference implementation)
+- [Swift: numbers][implementation-swift]
 
 ## Reference
 
@@ -52,3 +53,4 @@ These are recommendations, not rules, for recurring terminology in the instructi
 [types-string]: ../types/string.md
 [implementation-elixir]: ../../languages/elixir/exercises/concept/numbers/.docs/instructions.md
 [implementation-javascript]: ../../languages/javascript/exercises/concept/numbers/.docs/instructions.md
+[implementation-swift]: ../../languages/swift/exercises/concept/numbers/.docs/instructions.md

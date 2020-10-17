@@ -14,14 +14,21 @@ A list of exercises that we _must_ have is compiled below, and is not at all a c
 
 - [x] [`/basics`][concept-basics]: `"basics"`
 - [x] [`/array-analysis`][concept-array-analysis]: `"array-analysis"`
+- [ ] `"array-destructuring"`
+- [ ] `"array-loops"`
 - [x] [`/arrays`][concept-arrays]: `"arrays"`
 - [x] [`/booleans`][concept-booleans]: `"booleans"`
+- [x] [`/closures`][concept-closures]: `"closures"`
+- [ ] `"callbacks"`
+- [ ] `"conditionals"`
+- [ ] `"errors"`
+- [x] [`/nullability`][concept-nullability]: `"nullability"`
 - [x] [`/numbers`][concept-numbers]: `"numbers"`
 - [x] [`/promises`][concept-promises]: `"promises"`
+- [x] [`/recursion`][concept-recursion]: `"recursion"`
 - [x] [`/strings`][concept-strings]: `"strings"`
-- [ ] `"errors"`
-- [ ] `"callbacks"`
-- [ ] `"recursion"`
+- [ ] `"string-formatting"`
+- [ ] `"variable-parameters"`
 
 **⚠ Note ⚠**: The idea here is to use a `concept` name for the folder, but perhaps use some sort of "progression", so they will naturally become a sort of path to traverse. In this example, the `numbers` exercise only teaches basic number usage, and doesn't look into more advanced subjects. I would expect to see
 
@@ -42,6 +49,7 @@ Here is how we have interpreted the following concept-keywords. This should be s
 | `array-analysis`  | Know of built-in Array methods that analyse the contents of an array.                                                                                                                                                                    |
 | `arrays`          | Know of the existence of the `Array` global object, where it's documented and some of the basic functions such as `pop` and `push`. Know how to access an item using the `[]` indexer and how to replace a value using the `[]` indexer. |
 | `booleans`        | Know of the existence of the `boolean` type. Know about boolean operators and how to build logical expressions with them. Know of the boolean operator precedence rules. Know where it's documented, or at least how to search for it.   |
+| `closures`        | Know of variable lexical scope, how it is affected by `var`, `let`, and `const`. Know how to use closures to create dynamic functions based on arguments, memoize values.                                                                |
 | `numbers`         | Know of the existence of the `number` type and (for this language) see that it's whole numbers, and floating points. Know of basic operators such as multiplication. Know where it's documented, or at least how to search for it.       |
 | `promises`        | Know of the `Promise` construct (`future` type in some other languages), chain-ability, and `.then`. Know where it's documented/how to search.                                                                                           |
 | `strings`         | Know of the existence of the `string` type. Know of some basic functions (like looking up a character at a position, or slicing the string). Know where it's documented, or at least how to search for it.                               |
@@ -63,8 +71,11 @@ To contribute, please find and work on one of the [new exercise issues][issues-n
 [concept-array-analysis]: ./array-analysis
 [concept-arrays]: ./arrays
 [concept-booleans]: ./booleans
+[concept-closures]: ./closures
+[concept-nullability]: ./nullability
 [concept-numbers]: ./numbers
 [concept-promises]: ./promises
+[concept-recursion]: ./recursion
 [concept-strings]: ./strings
 [issues-new-exercise]: https://github.com/exercism/v3/issues?utf8=%E2%9C%93&q=is%3Aopen+label%3Atrack%2Fjavascript+label%3Atype%2Fnew-exercise+label%3Astatus%2Fhelp-wanted
 [issues-improve-exercise]: https://github.com/exercism/v3/issues?utf8=%E2%9C%93&q=is%3Aopen+label%3Atrack%2Fjavascript+label%3Atype%2Fimprove-exercise+label%3Astatus%2Fhelp-wanted

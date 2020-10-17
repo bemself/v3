@@ -44,6 +44,7 @@ _(This list is sorted alphabetically.)_
 - [Nim][track-nim]
 - [OCaml][track-ocaml]
 - [Perl 5][track-perl5]
+- [Pharo Smalltalk][track-pharo-smalltalk]
 - [PureScript][track-purescript]
 - [Python][track-python]
 - [R][track-r]
@@ -56,7 +57,7 @@ _(This list is sorted alphabetically.)_
 - [Scheme][track-scheme]
 - [Swift][track-swift]
 - [TypeScript][track-typescript]
-- [x86-64-assembly][track-x86-64-assembly]
+- [x86-64 Assembly][track-x86-64-assembly]
 
 **If you are a Track Maintainer, please [start here](./docs/maintainers/README.md).**
 
@@ -95,6 +96,7 @@ _(This list is sorted alphabetically.)_
 [track-nim]: https://github.com/exercism/v3/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3Astatus%2Fhelp-wanted+label%3Atrack%2Fnim
 [track-ocaml]: https://github.com/exercism/v3/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3Astatus%2Fhelp-wanted+label%3Atrack%2Focaml
 [track-perl5]: https://github.com/exercism/v3/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3Astatus%2Fhelp-wanted+label%3Atrack%2Fperl5
+[track-pharo-smalltalk]: https://github.com/exercism/v3/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3Astatus%2Fhelp-wanted+label%3Atrack%2Fpharo-smalltalk
 [track-purescript]: https://github.com/exercism/v3/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3Astatus%2Fhelp-wanted+label%3Atrack%2Fpurescript
 [track-python]: https://github.com/exercism/v3/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3Astatus%2Fhelp-wanted+label%3Atrack%2Fpython
 [track-r]: https://github.com/exercism/v3/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3Astatus%2Fhelp-wanted+label%3Atrack%2Fr

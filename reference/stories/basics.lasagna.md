@@ -10,19 +10,20 @@ The story facilitates defining functions:
 
 - Returning the expected cooking time.
 - Calculating the remaining time in the oven.
-- Calculating preparation time as a function of the number of lyers in a lasagna.
+- Calculating preparation time as a function of the number of layers in a lasagna.
 - Calculating the total cooking time.
 
 ## Implementations
 
-- [C#][implementation-csharp] (reference implementation)
-- [Common Lisp][implementation-common-lisp]
-- [Elixir][implementation-elixir]
-- [F#][implementation-fsharp]
-- [Java][implementation-java]
-- [JavaScript][implementation-javascript]
-- [Julia][implementation-julia]
-- [Ruby][implementation-ruby]
+- [C#: basics][implementation-csharp] (reference implementation)
+- [Common Lisp: basics][implementation-common-lisp]
+- [Elixir: basics][implementation-elixir]
+- [F#: basics][implementation-fsharp]
+- [Java: basics][implementation-java]
+- [JavaScript: basics][implementation-javascript]
+- [Julia: functions-introduction][implementation-julia]
+- [Ruby: basics][implementation-ruby]
+- [Swift: basics][implementation-swift]
 
 ## Reference
 
@@ -43,3 +44,4 @@ The story facilitates defining functions:
 [implementation-javascript]: ../../languages/javascript/exercises/concept/basics/.docs/instructions.md
 [implementation-julia]: ../../languages/julia/exercises/concept/functions-introduction/.docs/instructions.md
 [implementation-ruby]: ../../languages/ruby/exercises/concept/basics/.docs/instructions.md
+[implementation-swift]: ../../languages/swift/exercises/concept/basics/.docs/instructions.md
